@@ -1,38 +1,12 @@
-/*{
-  "name": "socket.io-chat",
-  "version": "0.0.0",
-  "description": "A simple chat client using socket.io",
-  "main": "index.js",
-  "author": "Grant Timmerman",
-  "private": true,
-  "license": "BSD",
-  "dependencies": {
-    "express": "4.13.4"
-  },
-  "scripts": {
-    "start": "node index.js"
-  }
-}*/
-
 {
-
   "name":"chat",
-
   "description": "chatapp",
   "version":"1.0.0",
-
-  "website": "https://github.com/sumanthp/Websocket",
-
-
-
+  "website": "https://github.com/sumanthp/websocket",
   "repository": "https://github.com/sumanthp/Websocket",
-
   "success_url": "/",
-  
   "main" : "index.js",
-  
   "keywords": [
-
     "node",
     "express",
     "socket.io",
@@ -40,20 +14,13 @@
     "websocket",
     "jade"
   ],
-
   "scripts": {
          "test" :"echo \"Error:no test\" && exit 1",
       "start":"node index.js"
   },
-
   "addons": [
-
   ],
-
   "env": {
-
     "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs"
-
   }
-
 }
